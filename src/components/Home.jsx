@@ -1,17 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { FaXTwitter, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
-import image from "../assets/image.jpg"
-import design from "../assets/design.png"
-import code from "../assets/code.png"
-import consulting from "../assets/consulting.png"
-import web1 from "../assets/web1.png"
-import web2 from "../assets/web2.png"
-import web3 from "../assets/web3.png"
-import web4 from "../assets/web4.png"
-import web5 from "../assets/web5.png"
-import web6 from "../assets/web6.png"
-import { useState } from 'react';
+import { FaLinkedin, FaSquareGithub, FaXTwitter } from "react-icons/fa6";
+import code from "../assets/code.png";
+import consulting from "../assets/consulting.png";
+import design from "../assets/design.png";
+import image from "../assets/image.jpg";
+import web1 from "../assets/web1.png";
+import web2 from "../assets/web2.png";
+import web3 from "../assets/web3.png";
+import web4 from "../assets/web4.png";
+import web5 from "../assets/web5.png";
+import web6 from "../assets/web6.png";
 
 function Home() {
     const [darkMode, setDarkMode] = useState(false)
@@ -36,9 +35,10 @@ function Home() {
                     <div className='text-center p-10'>
                         <h2 className='text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Ghulam Akbar</h2>
                         <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>Expert MERN Stack Developer</h3>
-                        <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto'>Hi there, I'm Ghulam Akbar an Student of Computer System's Engineer. I'm expert mern stack developer
-                            i have a experience of five years.
-                            I completed many projects like E-commerce, Education, and many other websites.
+                        <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto'>
+                            Hi there, my name is Ghulam Akbar, and I am a student studying computer systems engineering.
+                            I have five years of experience as a master full stack developer,
+                            and I have worked on numerous websites including e-commerce and educational ones.
                         </p>
                     </div>
                     <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
