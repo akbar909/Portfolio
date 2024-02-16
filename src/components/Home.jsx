@@ -22,7 +22,7 @@ function Home() {
 
             <main className='bg-white px-10 md:px-20 lg:px-4 dark:bg-gray-900'>
                 <section className='min-h-screen'>
-                    <nav className='py-10 mb-12 flex justify-between dark:text-white'>
+                    <nav className='py-10 flex justify-between dark:text-white'>
                         <h1 className='text-xl font-roboto'>Ghulam Akbar</h1>
                         <ul className='flex items-center '>
                             <li>
@@ -46,8 +46,8 @@ function Home() {
                         <FaLinkedin />
                         <FaSquareGithub />
                     </div>
-                    <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 mt-20 md:w-96 md:h-96 '>
-                        <img src={image} />
+                    <div>
+                        <img src={image} className='relative mx-auto rounded-2xl mt-16  w-96 h-[450px]' />
                     </div>
 
                 </section>
